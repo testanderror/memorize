@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;800;900&family=Noto+Sans+JP&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #221f2f;
+}
+
+.hidden{
+  display: none;
+}
+
+.memory-game {
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* Adjust the width as needed */
+  grid-template-rows: repeat(6, 300px ); /* Adjust the height as needed 242.705px <- golden ratio*/
+  gap: 10px; /* Adjust the gap between cards as needed */
+}
+
+.card {
+  width: 300px; /* Adjust the card width as needed */
+  height: 300px; /* Adjust the card height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #1a1a3400; 
+}
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.box1, .box2 {
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-color: lightgray; /* Example background color */
+  margin: 10px; /* Adjust the margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #1a1a3400; 
+}
+
+.box1 p, .box2 p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.vertical {
+  white-space: nowrap;
+  font-size: 50px;
+  word-spacing: 1.5rem;
+  overflow: hidden;
+}
+
+.card.vertical {
+  display: flex;
+  flex-direction: row; /* Set to 'column' for vertical layout */
+  align-items: center; /* Align to the start of the column */
+  justify-content: center; /* Center vertically within the column */
+  text-align: left;
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  font-family: 'Noto Sans JP', sans-serif !important;
+  background-color: #1a1a3400;
+  
+}
+
+.kanji {
+  order: 2; /* Display 'kanji' above 'furigana' */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  writing-mode: vertical-rl; /* Vertical text orientation (Japanese style) */
+  text-orientation: upright; /* Ensure text orientation is upright */
+}
+
+.furigana {
+  order: 1; /* Display 'furigana' below 'kanji' */
+  font-size: 15px; /* Adjust the spacing as needed */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  writing-mode: vertical-rl; /* Vertical text orientation (Japanese style) */
+  text-orientation: upright; /* Ensure text orientation is upright */
+}
+
+.green {
+  color: rgb(140, 119, 0);
+}
+
+.red {
+  color: darkred;
+}
+
+#shuffleButton{
+  margin-top: 50px;
+  width: 45%;
+  height: 90px;
+  color: #fff;
+  background-color: #1a1a3400;
+  border: solid;
+  font-size: 40px;
+  cursor: pointer; 
+  
+  
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
