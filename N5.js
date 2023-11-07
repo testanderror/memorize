@@ -1,5 +1,5 @@
 const cards = [];
-for (let i = 1; i <= 18; i++) {
+for (let i = 1; i <= 12; i++) {
   const value = Math.ceil(i / 2); // Ensure pairs have the same value
   cards.push({
     id: `card${i}`,
@@ -57,6 +57,7 @@ function handleCardClick(cardId) {
       }
     }
   }
+  countGreenChildElements();
 }
 
 function shuffleChildren() {
@@ -70,6 +71,7 @@ function shuffleChildren() {
 
   // Append the shuffled cards back to the container
   cards.forEach((card) => container.appendChild(card));
+  countGreenChildElements();
 }
 
 // Add click event listeners to the cards
@@ -85,7 +87,7 @@ fetch('N5.json')
   .then((jsonData) => {
     const randomEntries = [];
 
-    while (randomEntries.length < 9) {
+    while (randomEntries.length < 6) {
       const randomIndex = Math.floor(Math.random() * jsonData.length);
       const randomEntry = jsonData[randomIndex];
 
@@ -137,7 +139,7 @@ document.getElementById('shuffleButton').addEventListener('click', function () {
     .then((jsonData) => {
       const randomEntries = [];
 
-      while (randomEntries.length < 9) {
+      while (randomEntries.length < 6) {
         const randomIndex = Math.floor(Math.random() * jsonData.length);
         const randomEntry = jsonData[randomIndex];
 
@@ -169,7 +171,7 @@ document.getElementById('shuffleButton').addEventListener('click', function () {
             kanjiElement.textContent = entry.Vocabulary;
             furiganaElement.textContent = entry.Furigana;
             if (entry.Vocabulary.length > 4) {
-              kanjiElement.style.fontSize = '18px';
+              kanjiElement.style.fontSize = '20px';
             }
           }
           // Set the content of the 'Meaning' element in the second div
@@ -182,3 +184,30 @@ document.getElementById('shuffleButton').addEventListener('click', function () {
     })
     .catch((error) => console.error('Error loading JSON data:', error));
 });
+function countGreenChildElements() {
+  // Get the parent element
+  const memoryGame = document.querySelector('.memory-game');
+
+  // Get all child elements
+  const childElements = memoryGame.children;
+
+  // Initialize a count variable
+  let greenCount = 0;
+
+  // Loop through the child elements and check for the "green" class
+  for (let i = 0; i < childElements.length; i++) {
+    if (childElements[i].classList.contains('green')) {
+      greenCount++;
+    }
+  }
+
+  console.log(`Elements Correct: ${greenCount}`);
+  if (greenCount === 12) {
+    setTimeout(function () {
+      location.reload();
+    }, 1500);
+  }
+  // Log the count to the console
+}
+
+// Call the function when needed

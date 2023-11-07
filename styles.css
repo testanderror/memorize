@@ -17,7 +17,7 @@ body {
 .memory-game {
   display: grid;
   grid-template-columns: repeat(3, 300px); /* Adjust the width as needed */
-  grid-template-rows: repeat(6, 300px ); /* Adjust the height as needed 242.705px <- golden ratio*/
+  grid-template-rows: repeat(4, 300px ); /* Adjust the height as needed 242.705px <- golden ratio*/
   gap: 10px; /* Adjust the gap between cards as needed */
 }
 
@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.1);
   backdrop-filter: blur(7.4px);

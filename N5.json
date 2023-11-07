@@ -582,7 +582,7 @@
   },
   {
     "Vocabulary": "エレベータ",
-    "Furigana": "エレベータ",
+    "Furigana": "",
     "Romaji": "erebeeta",
     "Meaning": "elevator",
     "Type": ""
@@ -700,7 +700,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "おじいさん",
+    "Vocabulary": "お祖父さん",
     "Furigana": "おじいさん",
     "Romaji": "ojiisan",
     "Meaning": "grand father",
@@ -3405,7 +3405,7 @@
     "Vocabulary": "〜はい",
     "Furigana": "〜はい",
     "Romaji": "~hai",
-    "Meaning": "cups of ~",
+    "Meaning": "counter for cups",
     "Type": ""
   },
   {
