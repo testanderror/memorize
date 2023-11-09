@@ -103,7 +103,7 @@ body {
 
 .furigana {
   order: 1; /* Display 'furigana' below 'kanji' */
-  font-size: 15px; /* Adjust the spacing as needed */
+  font-size: 20px; /* Adjust the spacing as needed */
   margin: 0; /* Reset margin */
   padding: 0; /* Reset padding */
   writing-mode: vertical-rl; /* Vertical text orientation (Japanese style) */
