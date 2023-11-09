@@ -171,7 +171,7 @@ document.getElementById('shuffleButton').addEventListener('click', function () {
             kanjiElement.textContent = entry.Vocabulary;
             furiganaElement.textContent = entry.Furigana;
             if (entry.Vocabulary.length > 4) {
-              kanjiElement.style.fontSize = '20px';
+              kanjiElement.style.fontSize = '25px';
             }
           }
           // Set the content of the 'Meaning' element in the second div
