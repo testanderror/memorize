@@ -267,7 +267,7 @@
   },
   {
     "Vocabulary": "良い",
-    "Furigana": "いい / よい",
+    "Furigana": "いい",
     "Romaji": "ii, yoi",
     "Meaning": "good",
     "Type": ""
@@ -896,15 +896,15 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜回",
-    "Furigana": "〜かい",
+    "Vocabulary": "~回",
+    "Furigana": "~かい",
     "Romaji": "~kai",
     "Meaning": "~times",
     "Type": ""
   },
   {
-    "Vocabulary": "〜階",
-    "Furigana": "〜かい",
+    "Vocabulary": "~階",
+    "Furigana": "~かい",
     "Romaji": "~kai",
     "Meaning": "~floor",
     "Type": ""
@@ -1001,8 +1001,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜か月",
-    "Furigana": "〜かげつ",
+    "Vocabulary": "~か月",
+    "Furigana": "~かげつ",
     "Romaji": "~kagetsu",
     "Meaning": "~ number of months",
     "Type": ""
@@ -1260,7 +1260,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜側",
+    "Vocabulary": "~側",
     "Furigana": "~がわ",
     "Romaji": "~gawa",
     "Meaning": "~side",
@@ -1624,8 +1624,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜個",
-    "Furigana": "〜こ",
+    "Vocabulary": "~個",
+    "Furigana": "~こ",
     "Romaji": "~ko",
     "Meaning": "counter for small objects",
     "Type": ""
@@ -1638,8 +1638,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜語",
-    "Furigana": "〜ご",
+    "Vocabulary": "~語",
+    "Furigana": "~ご",
     "Romaji": "~go",
     "Meaning": "~ language",
     "Type": ""
@@ -1827,8 +1827,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜歳",
-    "Furigana": "〜さい",
+    "Vocabulary": "~歳",
+    "Furigana": "~さい",
     "Romaji": "~sai",
     "Meaning": "years old",
     "Type": ""
@@ -1863,7 +1863,7 @@
   },
   {
     "Vocabulary": "冊",
-    "Furigana": "〜さつ",
+    "Furigana": "~さつ",
     "Romaji": "~satsu",
     "Meaning": "counter for books",
     "Type": ""
@@ -1904,7 +1904,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜さん",
+    "Vocabulary": "~さん",
     "Furigana": "",
     "Romaji": "~san",
     "Meaning": "Mr., Mrs.",
@@ -1919,14 +1919,14 @@
   },
   {
     "Vocabulary": "四",
-    "Furigana": "し",
-    "Romaji": "shi",
+    "Furigana": "よん",
+    "Romaji": "yon",
     "Meaning": "four",
     "Type": ""
   },
   {
-    "Vocabulary": "〜時",
-    "Furigana": "〜じ",
+    "Vocabulary": "~時",
+    "Furigana": "~じ",
     "Romaji": "~ji",
     "Meaning": "o’clock",
     "Type": ""
@@ -1953,8 +1953,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜時間",
-    "Furigana": "〜じかん",
+    "Vocabulary": "~時間",
+    "Furigana": "~じかん",
     "Romaji": "~jikan",
     "Meaning": "~hours (classificator)",
     "Type": ""
@@ -2080,7 +2080,7 @@
   },
   {
     "Vocabulary": "~週間",
-    "Furigana": "〜しゅうかん",
+    "Furigana": "~しゅうかん",
     "Romaji": "~shuukan",
     "Meaning": "… weeks",
     "Type": ""
@@ -2142,8 +2142,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜人",
-    "Furigana": "〜じん",
+    "Vocabulary": "~人",
+    "Furigana": "~じん",
     "Romaji": "~jin",
     "Meaning": "~an, ~ese (nationality)",
     "Type": ""
@@ -2184,8 +2184,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜過ぎ",
-    "Furigana": "〜すぎ",
+    "Vocabulary": "~過ぎ",
+    "Furigana": "~すぎ",
     "Romaji": "~sugi",
     "Meaning": "past, over",
     "Type": ""
@@ -2212,7 +2212,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜ずつ",
+    "Vocabulary": "~ずつ",
     "Furigana": "",
     "Romaji": "~zutsu",
     "Meaning": "each",
@@ -2450,8 +2450,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜台",
-    "Furigana": "〜だい",
+    "Vocabulary": "~台",
+    "Furigana": "~だい",
     "Romaji": "~dai",
     "Meaning": "counter for machines",
     "Type": ""
@@ -2542,7 +2542,7 @@
   },
   {
     "Vocabulary": "~達",
-    "Furigana": "〜たち",
+    "Furigana": "~たち",
     "Romaji": "~tachi",
     "Meaning": "more than one, and others",
     "Type": ""
@@ -2688,8 +2688,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜中",
-    "Furigana": "〜ちゅう",
+    "Vocabulary": "~中",
+    "Furigana": "~ちゅう",
     "Romaji": "~chuu",
     "Meaning": "in the middle of",
     "Type": ""
@@ -2926,8 +2926,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜度",
-    "Furigana": "〜ど",
+    "Vocabulary": "~度",
+    "Furigana": "~ど",
     "Romaji": "~do",
     "Meaning": "~degree",
     "Type": ""
@@ -3185,7 +3185,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜など",
+    "Vocabulary": "~など",
     "Furigana": "",
     "Romaji": "~nado",
     "Meaning": "and so on",
@@ -3276,8 +3276,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜日",
-    "Furigana": "〜にち",
+    "Vocabulary": "~日",
+    "Furigana": "~にち",
     "Romaji": "~nichi",
     "Meaning": "…st, ..nd, ..th",
     "Type": ""
@@ -3311,7 +3311,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜人",
+    "Vocabulary": "~人",
     "Furigana": "~にん",
     "Romaji": "~nin",
     "Meaning": "… people",
@@ -3339,8 +3339,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜年",
-    "Furigana": "〜ねん",
+    "Vocabulary": "~年",
+    "Furigana": "~ねん",
     "Romaji": "~nen",
     "Meaning": "~ years",
     "Type": ""
@@ -3402,7 +3402,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜はい",
+    "Vocabulary": "~はい",
     "Furigana": "",
     "Romaji": "~hai",
     "Meaning": "counter for cups",
@@ -3598,8 +3598,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜半",
-    "Furigana": "〜はん",
+    "Vocabulary": "~半",
+    "Furigana": "~はん",
     "Romaji": "~han",
     "Meaning": "Half~",
     "Type": ""
@@ -3613,7 +3613,7 @@
   },
   {
     "Vocabulary": "~番",
-    "Furigana": "〜ばん",
+    "Furigana": "~ばん",
     "Romaji": "~ban",
     "Meaning": "No.~, ranking",
     "Type": ""
@@ -3661,8 +3661,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜匹",
-    "Furigana": "〜ひき",
+    "Vocabulary": "~匹",
+    "Furigana": "~ひき",
     "Romaji": "~hiki",
     "Meaning": "counter for animals",
     "Type": ""
@@ -3885,8 +3885,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜分",
-    "Furigana": "〜ふん",
+    "Vocabulary": "~分",
+    "Furigana": "~ふん",
     "Romaji": "~fun",
     "Meaning": "~minutes",
     "Type": ""
@@ -4018,7 +4018,7 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜本",
+    "Vocabulary": "~本",
     "Furigana": "~ほん",
     "Romaji": "~hon",
     "Meaning": "counter for long objects",
@@ -4039,8 +4039,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜枚",
-    "Furigana": "〜まい",
+    "Vocabulary": "~枚",
+    "Furigana": "~まい",
     "Romaji": "~mai",
     "Meaning": "counter for thin objects",
     "Type": ""
@@ -4095,8 +4095,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜前",
-    "Furigana": "〜まえ",
+    "Vocabulary": "~前",
+    "Furigana": "~まえ",
     "Romaji": "~mae",
     "Meaning": "before, in front of",
     "Type": ""
@@ -4403,8 +4403,8 @@
     "Type": ""
   },
   {
-    "Vocabulary": "〜屋",
-    "Furigana": "〜や",
+    "Vocabulary": "~屋",
+    "Furigana": "~や",
     "Romaji": "~ya",
     "Meaning": "shop / store",
     "Type": ""
