@@ -205,7 +205,7 @@ function countGreenChildElements() {
   if (greenCount === 12) {
     setTimeout(function () {
       location.reload();
-    }, 1500);
+    }, 1000);
   }
   // Log the count to the console
 }
