@@ -113,7 +113,7 @@ fetch('N4.json')
         }
 
         if (entry.Vocabulary.length > 4) {
-          kanjiElement.style.fontSize = '18px';
+          kanjiElement.style.fontSize = '20px';
           console.log('Entry Vocabulary length:', entry.Vocabulary.length);
         }
         // Set the content of the 'Meaning' element in the second div
