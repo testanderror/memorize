@@ -17,13 +17,13 @@ body {
 .memory-game {
   display: grid;
   grid-template-columns: repeat(3, 300px); /* Adjust the width as needed */
-  grid-template-rows: repeat(4, 300px ); /* Adjust the height as needed 242.705px <- golden ratio*/
+  grid-template-rows: repeat(4, 200px ); /* Adjust the height as needed 242.705px <- golden ratio*/
   gap: 10px; /* Adjust the gap between cards as needed */
 }
 
 .card {
   width: 300px; /* Adjust the card width as needed */
-  height: 300px; /* Adjust the card height as needed */
+  height: 200px; /* Adjust the card height as needed */
   display: flex;
   justify-content: center;
   align-items: center;
