@@ -1,3 +1,4 @@
+const dingSound = document.getElementById('dingSound');
 const cards = [];
 for (let i = 1; i <= 12; i++) {
   const value = Math.ceil(i / 2); // Ensure pairs have the same value
@@ -37,6 +38,7 @@ function handleCardClick(cardId) {
         // Matching pair
         firstCard = null;
         secondCard = null;
+        dingSound.play();
       } else {
         // Non-matching pair
         document.getElementById(firstCard.id).classList.add('red'); // Add red class
@@ -113,7 +115,7 @@ fetch('N4.json')
         }
 
         if (entry.Vocabulary.length > 4) {
-          kanjiElement.style.fontSize = '20px';
+          kanjiElement.style.fontSize = '18px';
           console.log('Entry Vocabulary length:', entry.Vocabulary.length);
         }
         // Set the content of the 'Meaning' element in the second div
@@ -171,7 +173,7 @@ document.getElementById('shuffleButton').addEventListener('click', function () {
             kanjiElement.textContent = entry.Vocabulary;
             furiganaElement.textContent = entry.Furigana;
             if (entry.Vocabulary.length > 4) {
-              kanjiElement.style.fontSize = '25px';
+              kanjiElement.style.fontSize = '20px';
             }
           }
           // Set the content of the 'Meaning' element in the second div
@@ -210,4 +212,6 @@ function countGreenChildElements() {
   // Log the count to the console
 }
 
-// Call the function when needed
+document.getElementById('home').addEventListener('click', function () {
+  window.location.href = 'index.html';
+});

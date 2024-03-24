@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.1);
   backdrop-filter: blur(7.4px);
@@ -103,7 +103,7 @@ body {
 
 .furigana {
   order: 1; /* Display 'furigana' below 'kanji' */
-  font-size: 20px; /* Adjust the spacing as needed */
+  font-size: 15px; /* Adjust the spacing as needed */
   margin: 0; /* Reset margin */
   padding: 0; /* Reset padding */
   writing-mode: vertical-rl; /* Vertical text orientation (Japanese style) */
@@ -118,7 +118,7 @@ body {
   color: darkred;
 }
 
-#shuffleButton{
+#shuffleButton, #home{
   margin-top: 50px;
   width: 45%;
   height: 90px;
@@ -126,10 +126,7 @@ body {
   background-color: #1a1a3400;
   border: solid;
   font-size: 40px;
-  cursor: pointer; 
-  
-  
-  
+  cursor: pointer;  
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.1);
   backdrop-filter: blur(7.4px);
