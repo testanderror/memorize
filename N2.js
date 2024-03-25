@@ -84,7 +84,7 @@ cards.forEach((card) => {
   });
 });
 
-fetch('N4.json')
+fetch('N2.json')
   .then((response) => response.json())
   .then((jsonData) => {
     const randomEntries = [];
@@ -136,7 +136,7 @@ let shownData = [];
 // Add a click event listener to the shuffle button
 document.getElementById('shuffleButton').addEventListener('click', function () {
   // Fetch new data from the JSON file
-  fetch('N4.json')
+  fetch('N2.json')
     .then((response) => response.json())
     .then((jsonData) => {
       const randomEntries = [];

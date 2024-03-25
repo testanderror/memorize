@@ -7,7 +7,7 @@
     <title>Cards</title>
   </head>
   <body>
-    <audio id='dingSound' src="./bell.wav"></audio>
+    <audio id="dingSound" src="./bell.wav"></audio>
     <div class="centered-container">
       <div class="box1">
         <p>N5</p>
@@ -15,21 +15,43 @@
       <div class="box2">
         <p>N4</p>
       </div>
-    </div>
+      <div class="box3">
+        <p>N3</p>
+      </div>
+      <div class="box4">
+        <p>N2</p>
+      </div>
+      <div class="box5">
+        <p>N1</p>
+      </div>
     </div>
     <script>
       const box1 = document.querySelector('.box1');
       const box2 = document.querySelector('.box2');
-      
+      const box3 = document.querySelector('.box3');
+      const box4 = document.querySelector('.box4');
+      const box5 = document.querySelector('.box5');
 
-  // Add click event listeners to the box divs
+      // Add click event listeners to the box divs
       box1.addEventListener('click', function () {
-      window.location.href = 'N5.html'; // Redirect to "cards.html" when box1 is clicked
+        window.location.href = 'N5.html'; // Redirect to "cards.html" when box1 is clicked
       });
 
       box2.addEventListener('click', function () {
-      window.location.href = 'N4.html'; // Redirect to "verbs.html" when box2 is clicked
-  });
+        window.location.href = 'N4.html'; // Redirect to "verbs.html" when box2 is clicked
+      });
+
+      box3.addEventListener('click', function () {
+        window.location.href = 'N3.html'; // Redirect to "verbs.html" when box2 is clicked
+      });
+
+      box4.addEventListener('click', function () {
+        window.location.href = 'N2.html'; // Redirect to "verbs.html" when box2 is clicked
+      });
+
+      box5.addEventListener('click', function () {
+        window.location.href = 'N1.html'; // Redirect to "verbs.html" when box2 is clicked
+      });
     </script>
   </body>
 </html>

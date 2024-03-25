@@ -36,9 +36,9 @@ function handleCardClick(cardId) {
       // Check if the values match strictly
       if (firstCard.value === secondCard.value) {
         // Matching pair
+        dingSound.play();
         firstCard = null;
         secondCard = null;
-        dingSound.play();
       } else {
         // Non-matching pair
         document.getElementById(firstCard.id).classList.add('red'); // Add red class
@@ -205,6 +205,7 @@ function countGreenChildElements() {
 
   console.log(`Elements Correct: ${greenCount}`);
   if (greenCount === 12) {
+    dingSound.play();
     setTimeout(function () {
       location.reload();
     }, 1000);

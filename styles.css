@@ -48,7 +48,14 @@ body {
   text-align: center;
 }
 
-.box1, .box2 {
+title{
+  color: #fff;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
   width: 200px; /* Adjust the width as needed */
   height: 100px; /* Adjust the height as needed */
   background-color: lightgray; /* Example background color */
